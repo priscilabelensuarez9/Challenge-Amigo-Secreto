@@ -106,7 +106,7 @@ body {
 }
 
 
-.listaDeAmigos {
+#listaDeAmigos {
     font-family: "Inter", serif;
     font-size: 13px;
     font-weight: 500;

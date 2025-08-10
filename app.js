@@ -7,3 +7,6 @@ function agregarAmigo() {
     document.getElementById("amigo").value = ""; // Limpia el input después de agregar
 }
 
+function mostrarLista(elemento, texto) {
+document.getElementById("listaDeAmigos").value = `${agregarAmigo}`;
+}
