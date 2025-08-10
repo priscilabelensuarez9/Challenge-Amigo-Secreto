@@ -66,7 +66,8 @@ body {
     font-size: 36px;
     font-weight: 700;
     color: var(--color-primary);
-    margin: 10px 0;
+    margin: 35px 0;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -76,7 +77,7 @@ body {
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .input-name {
@@ -103,6 +104,19 @@ body {
     font-family: "Merriweather", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+
+.listaDeAmigos {
+    font-family: "Inter", serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
 
 /* Estilos de botón */
 button {
@@ -160,3 +174,5 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+
