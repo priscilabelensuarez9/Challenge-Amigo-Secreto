@@ -9,4 +9,8 @@ function agregarAmigo() {
 
 function mostrarLista(elemento, texto) {
 document.getElementById("listaDeAmigos").value = `${agregarAmigo}`;
+if (NombreAmigos.length === 0) {
+    elemento.innerHTML = "Por favor, inserte un nombre.";
+    
+}
 }
